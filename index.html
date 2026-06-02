@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sajid Haider - Web Developer Portfolio</title>
+  <meta name="description" content="Sajid Haider — WordPress & Elementor Web Developer from Bangladesh. 2+ years building responsive, high-performance websites with creative design and excellent functionality.">
+  <meta name="author" content="Sajid Haider">
+  <meta name="theme-color" content="#07090f">
+  <meta property="og:title" content="Sajid Haider - Web Developer Portfolio">
+  <meta property="og:description" content="WordPress & Elementor specialist delivering premium, conversion-focused websites with 100% efficiency and reliability.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://sajidhaider.xyz/">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/fevicon.png" type="image/x-icon">
+  
+  <!-- Google Fonts (CDN) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Core CSS Libraries -->
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+  <!-- Ambient background grid -->
+  <div class="ambient-grid" aria-hidden="true" hidden></div>
+
+  <!-- Preloader start -->
+  <div id="loading">
+    <div id="loading-center">
+      <div id="loading-center-absolute">
+        <div class="loader-glow"></div>
+        <div class="object" id="object_one"></div>
+        <div class="object" id="object_two"></div>
+        <div class="object" id="object_three"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Preloader end -->
+
+  <!-- Header start -->
+  <header class="main-header" id="main-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-0">
+          <!-- Logo start -->
+          <a class="navbar-brand logo" href="index.html">
+            <img src="img/sajid_haider-logo.jpg" class="img-fluid" alt="sajid haider logo">
+          </a>
+          <!-- Logo end -->
+          
+          <!-- Mobile Menu Trigger -->
+          <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <!-- Desktop Menu start -->
+          <div class="collapse navbar-collapse menu d-none d-lg-block" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a href="#contact" class="btn btn-premium btn-header-contact">Contact me <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+            </div>
+          </div>
+          <!-- Desktop Menu end -->
+          
+          <!-- Off Canvas Mobile Menu trigger -->
+          <div class="mobile_menu_box d-block d-lg-none">
+            <button type="button" class="btn m_on_btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" aria-label="Open menu">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+          </div>
+          <!-- Off Canvas end -->
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Header end -->
+
+  <!-- Hero Section start -->
+  <section class="banner bg-section-a d-flex align-items-center" aria-label="Hero">
+    <div class="hero-code-block" aria-hidden="true">
+      <pre><code><span class="code-kw">const</span> developer = {
+  <span class="code-prop">name</span>: <span class="code-str">"Sajid Haider"</span>,
+  <span class="code-prop">role</span>: <span class="code-str">"Web Developer"</span>,
+  <span class="code-prop">stack</span>: [<span class="code-str">"WordPress"</span>, <span class="code-str">"Elementor"</span>],
+  <span class="code-prop">available</span>: <span class="code-bool">true</span>
+};</code></pre>
+    </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2 order-1 mb-4 mb-lg-5" data-aos="fade-left">
+          <div class="b_img_wrapper">
+            <div class="b_img">
+              <img src="img/banner.jpg" alt="Sajid Haider Portrait">
+            </div>
+            <div class="b_img_card">
+              <div class="b_img_card_icon"><i class="fa-solid fa-code"></i></div>
+              <div>
+                <h5>WordPress Pro</h5>
+                <p>2+ Years Experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1 order-2" data-aos="fade-right">
+          <div class="b_text">
+            <span class="badge badge-accent mb-3"><i class="fa-solid fa-bolt me-2"></i>Available for Hire</span>
+            <h1 class="mb-3 cm_h2 font-heading">I'm a <span class="type gradient-text"></span></h1>
+            <p class="mb-4 cm_p">We provide only quality, work with 100% efficiency and reliability.</p>
+            <div class="d-flex flex-wrap gap-3 align-items-center mb-5">
+              <a href="#contact" class="btn btn-premium-solid">Let's Work Together <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+              <a href="#portfolio" class="btn btn-premium-outline">View Portfolio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Stats (from existing portfolio content) -->
+      <div class="hero-stats row g-3 mt-4 mt-lg-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-value">2+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-value">90%</span>
+            <span class="stat-label">WordPress</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-value">95%</span>
+            <span class="stat-label">HTML / CSS</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-value">100%</span>
+            <span class="stat-label">Efficiency & Reliability</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section end -->
+
+  <!-- About Section start -->
+  <section class="about section-spacing bg-section-b" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+          <div class="ab_img_wrapper">
+            <div class="ab_img">
+              <img src="img/about.jpg" class="img-fluid w-100" alt="About Sajid Haider">
+            </div>
+            <div class="ab_decor"></div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="ab_text ps-lg-4">
+            <span class="section-label">01 — Introduction</span>
+            <h2 class="mb-3 cm_h2 font-heading" id="about-heading">About <span class="gradient-text">me</span></h2>
+            <div class="divider mb-4"></div>
+            <p class="mb-4 cm_p text-slate">
+              My name is <span class="highlight-text">Sajid Haider</span>. I am a web developer. I work with WordPress and Elementor. And I have 2 years of experience in this sector. I live in Bangladesh. I take my work very seriously, and I try to give the highest quality of my work, I try to learn new things constantly. I use creative design and excellent functions in my work. I can create a wonderful and best user experience website for you.
+            </p>
+            <div class="ab_btn d-flex flex-wrap gap-3">
+              <a href="#contact" class="btn btn-premium-solid">Hire me <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+              <a href="img/sajid_haider_CV.pdf" class="btn btn-premium-outline" target="_blank">Download CV <span><i class="fa-regular fa-file ms-2"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Why Work With Me Section start -->
+  <section class="why-me section-spacing bg-section-c" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5" data-aos="fade-right">
+          <span class="section-label">02 — Value</span>
+          <h2 class="mb-3 cm_h2 font-heading" id="why-heading">Why Work <span class="gradient-text">With Me</span></h2>
+          <div class="divider mb-4"></div>
+          <p class="cm_p text-slate mb-0">We provide only quality, work with 100% efficiency and reliability.</p>
+        </div>
+        <div class="col-lg-7" data-aos="fade-left">
+          <div class="why-grid">
+            <div class="why-card">
+              <div class="why-icon"><i class="fa-solid fa-briefcase"></i></div>
+              <div>
+                <h4>2 Years of Experience</h4>
+                <p>I work with WordPress and Elementor. And I have 2 years of experience in this sector.</p>
+              </div>
+            </div>
+            <div class="why-card">
+              <div class="why-icon"><i class="fa-solid fa-gem"></i></div>
+              <div>
+                <h4>Highest Quality Work</h4>
+                <p>I take my work very seriously, and I try to give the highest quality of my work, I try to learn new things constantly.</p>
+              </div>
+            </div>
+            <div class="why-card">
+              <div class="why-icon"><i class="fa-solid fa-palette"></i></div>
+              <div>
+                <h4>Creative Design</h4>
+                <p>I use creative design and excellent functions in my work.</p>
+              </div>
+            </div>
+            <div class="why-card">
+              <div class="why-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div>
+                <h4>Best User Experience</h4>
+                <p>I can create a wonderful and best user experience website for you.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Why Work With Me Section end -->
+
+  <!-- Skills Section start -->
+  <section class="skills section-spacing bg-section-a" id="skills">
+    <div class="container">
+      <div class="skills_box" data-aos="fade-up">
+        <div class="skills_heading text-center mb-5">
+          <span class="section-label">03 — Expertise</span>
+          <h2 class="mb-3 cm_h2 font-heading">My <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">Proficiencies and technical capabilities developed over my career</p>
+          <div class="divider mx-auto"></div>
+        </div>
+        
+        <div class="skills_range row">
+          <div class="col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="d-flex justify-content-between mb-2">
+                <h3 class="skill-name mb-0">HTML / CSS</h3>
+                <span class="skill-percentage text-accent">99%</span>
+              </div>
+              <div class="skill_wrap">
+                <div class="bar html_css" data-width="99"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="d-flex justify-content-between mb-2">
+                <h3 class="skill-name mb-0">JavaScript</h3>
+                <span class="skill-percentage text-accent">80%</span>
+              </div>
+              <div class="skill_wrap">
+                <div class="bar JavaScript" data-width="80"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="d-flex justify-content-between mb-2">
+                <h3 class="skill-name mb-0">WordPress</h3>
+                <span class="skill-percentage text-accent">95%</span>
+              </div>
+              <div class="skill_wrap">
+                <div class="bar WordPress" data-width="95"></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="d-flex justify-content-between mb-2">
+                <h3 class="skill-name mb-0">Elementor</h3>
+                <span class="skill-percentage text-accent">90%</span>
+              </div>
+              <div class="skill_wrap">
+                <div class="bar php" data-width="90"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="d-flex justify-content-between mb-2">
+                <h3 class="skill-name mb-0">PHP</h3>
+                <span class="skill-percentage text-accent">80%</span>
+              </div>
+              <div class="skill_wrap">
+                <div class="bar php" data-width="80"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="skill-card">
+              <div class="d-flex justify-content-between mb-2">
+                <h3 class="skill-name mb-0">MySQL</h3>
+                <span class="skill-percentage text-accent">85%</span>
+              </div>
+              <div class="skill_wrap">
+                <div class="bar php" data-width="85"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section end -->
+
+  <!-- Tech Stack Grid Section (NEW) start -->
+  <section class="tech-stack section-spacing bg-section-b">
+    <div class="container">
+      <div class="skills_heading text-center mb-5" data-aos="fade-up">
+        <span class="section-label">04 — Stack</span>
+        <h2 class="mb-3 cm_h2 font-heading">Tech <span class="gradient-text">Ecosystem</span></h2>
+        <p class="section-subtitle">The modern stack I use to build premium digital solutions</p>
+        <div class="divider mx-auto"></div>
+      </div>
+      
+      <div class="row g-4 justify-content-center" data-aos="fade-up">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="tech-item-card">
+            <div class="tech-icon"><i class="fa-brands fa-wordpress"></i></div>
+            <h4>WordPress</h4>
+            <p>CMS & Custom Themes</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="tech-item-card">
+            <div class="tech-icon"><i class="fa-solid fa-cubes"></i></div>
+            <h4>Elementor Pro</h4>
+            <p>Visual Page Builder</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="tech-item-card">
+            <div class="tech-icon"><i class="fa-brands fa-html5"></i></div>
+            <h4>HTML5</h4>
+            <p>Semantic Structure</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="tech-item-card">
+            <div class="tech-icon"><i class="fa-brands fa-css3-alt"></i></div>
+            <h4>CSS3</h4>
+            <p>Advanced Styling</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="tech-item-card">
+            <div class="tech-icon"><i class="fa-brands fa-js"></i></div>
+            <h4>JavaScript</h4>
+            <p>Interactive Logic</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="tech-item-card">
+            <div class="tech-icon"><i class="fa-brands fa-php"></i></div>
+            <h4>PHP</h4>
+            <p>Backend Templating</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="tech-item-card">
+            <div class="tech-icon"><i class="fa-brands fa-bootstrap"></i></div>
+            <h4>Bootstrap</h4>
+            <p>Responsive Grid Layouts</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="tech-item-card">
+            <div class="tech-icon"><i class="fa-brands fa-git-alt"></i></div>
+            <h4>Git / GitHub</h4>
+            <p>Version Control</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tech Stack Grid Section end -->
+
+  <!-- Workflow Section (NEW) start -->
+  <section class="workflow section-spacing bg-section-c">
+    <div class="container">
+      <div class="skills_heading text-center mb-5" data-aos="fade-up">
+        <span class="section-label">05 — Workflow</span>
+        <h2 class="mb-3 cm_h2 font-heading">Development <span class="gradient-text">Process</span></h2>
+        <p class="section-subtitle">A structured, conversion-focused workflow to deliver high-quality code</p>
+        <div class="divider mx-auto"></div>
+      </div>
+      
+      <div class="workflow-timeline" data-aos="fade-up">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="workflow-card">
+              <span class="step-num">01</span>
+              <h4>Discovery & Planning</h4>
+              <p>Understanding requirements, analyzing business objectives, mapping site structures, and selecting technical integrations.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="workflow-card">
+              <span class="step-num">02</span>
+              <h4>Modern UI Designing</h4>
+              <p>Designing modern, conversion-focused pages with strong typography, rich gradients, and custom components.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="workflow-card">
+              <span class="step-num">03</span>
+              <h4>WordPress Integration</h4>
+              <p>Transforming approved visuals into functional pages using clean, responsive HTML/CSS code and WordPress + Elementor builder.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="workflow-card">
+              <span class="step-num">04</span>
+              <h4>Speed Optimization</h4>
+              <p>Analyzing loading speeds, optimizing image assets, minifying source codes, and minimizing bounce rates.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="workflow-card">
+              <span class="step-num">05</span>
+              <h4>Testing & Launching</h4>
+              <p>Performing cross-device checks, debugging code, deploying to staging/production, and providing ongoing support.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="workflow-card workflow-highlight-card">
+              <div class="tech-icon"><i class="fa-solid fa-trophy text-accent"></i></div>
+              <h4>Quality Guaranteed</h4>
+              <p>Ensuring 100% efficient layouts, high performance, and standard-compliant structures for all clients.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Workflow Section end -->
+
+  <!-- Services Section start -->
+  <section class="service section-spacing bg-section-a" id="services">
+    <div class="container">
+      <div class="service_title text-center mb-5" data-aos="fade-up">
+        <span class="section-label">06 — Services</span>
+        <h2 class="mb-3 cm_h2 font-heading">My <span class="gradient-text">Services</span></h2>
+        <p class="section-subtitle">Professional web development solutions tailored to grow your business</p>
+        <div class="divider mx-auto"></div>
+      </div>
+      
+      <div class="row g-4" data-aos="fade-up">
+        <div class="col-lg-4 col-sm-6">
+          <div class="service_box">
+            <div class="service_icon_wrapper">
+              <img src="img/responsive.png" alt="Responsive Design Icon">
+            </div>
+            <h3>Responsive Design</h3>
+            <p>Compatible with all devices.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="service_box">
+            <div class="service_icon_wrapper">
+              <img src="img/landing.png" alt="Landing Page Icon">
+            </div>
+            <h3>Landing Page</h3>
+            <p>Bending will be on one page.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="service_box">
+            <div class="service_icon_wrapper">
+              <img src="img/ecommerce.png" alt="E-commerce Website Icon">
+            </div>
+            <h3>E-commerce Website</h3>
+            <p>Spread your business around the world.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="service_box">
+            <div class="service_icon_wrapper">
+              <img src="img/news.png" alt="NewsPortal Website Icon">
+            </div>
+            <h3>NewsPortal Website</h3>
+            <p>One step forward in spreading the truth.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="service_box">
+            <div class="service_icon_wrapper">
+              <img src="img/blog.png" alt="Blog Site Icon">
+            </div>
+            <h3>Blog-Magajin Website</h3>
+            <p>Keep the memories as your own.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6">
+          <div class="service_box">
+            <div class="service_icon_wrapper">
+              <img src="img/speed.png" alt="Speed Optimization Icon">
+            </div>
+            <h3>Speed Optimization</h3>
+            <p>There will be no loading on the website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services Section end -->
+
+  <!-- Experience Section start -->
+  <section class="experience section-spacing bg-section-b" id="experience">
+    <div class="container">
+      <div class="service_title text-center mb-5" data-aos="fade-up">
+        <span class="section-label">07 — Career</span>
+        <h2 class="mb-3 cm_h2 font-heading">My <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Professional milestones and project collaborations</p>
+        <div class="divider mx-auto"></div>
+      </div>
+      
+      <div class="container2" data-aos="fade-up">
+        <div class="row align-items-center">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="ex_imag">
+              <img src="img/bunny.jpg" class="img-fluid w-100" alt="Bunny Software Office Logo">
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="ex_text ps-lg-3">
+              <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                <a href="https://bunny.software/" target="_blank" class="ex_link_wrapper">
+                  <h3 class="mb-0 ex_cm_text font-heading">Bunny Software</h3>
+                </a>
+                <span class="badge badge-accent">Remote</span>
+                <span class="ex_icon i_color"><i class="fa-solid fa-circle-check"></i></span>
+              </div>
+              <p class="company-loc text-muted mb-3"><i class="fa-solid fa-location-dot me-2"></i>189 Mandume Ndemufayo Avenue, Windhoek, Namibia</p>
+              <div class="timeline-date font-heading mb-0">March, 2025 - <span class="text-accent fw-bold text-uppercase">Ongoing</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Experience Section end -->
+
+  <!-- Portfolio Section start -->
+  <section class="portfolio section-spacing bg-section-c" id="portfolio">
+    <div class="container">
+      <div class="service_title text-center mb-5" data-aos="fade-up">
+        <span class="section-label">08 — Projects</span>
+        <h2 class="mb-3 cm_h2 font-heading">My <span class="gradient-text">Portfolio</span></h2>
+        <p class="section-subtitle">A collection of custom layouts and responsive web projects</p>
+        <div class="divider mx-auto"></div>
+      </div>
+      
+      <!-- Portfolio Grid Start -->
+      <div class="portfolio-grid row g-4" data-aos="fade-up">
+
+        <!-- Portfolio Item Start -->
+        <div class="col-lg-4 col-md-6 d-flex">
+          <a href="https://sajidhaider.xyz/portfolio/" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+            <span class="portfolio-card__tag">#Portfolio</span>
+            <h3 class="portfolio-card__title font-heading">Portfolio</h3>
+            <p class="portfolio-card__desc">A responsive personal portfolio highlighting my work, skills, and project experience.</p>
+            <span class="portfolio-card__btn">View Website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+          </a>
+        </div>
+        <!-- Portfolio Item End -->
+
+        <!-- Portfolio Item Start -->
+        <div class="col-lg-4 col-md-6 d-flex">
+          <a href="https://sajidhaider.xyz/tinyone/" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+            <span class="portfolio-card__tag">#Corporate</span>
+            <h3 class="portfolio-card__title font-heading">Tinyone</h3>
+            <p class="portfolio-card__desc">A custom-built layout with clean structure, modern styling, and fully responsive design.</p>
+            <span class="portfolio-card__btn">View Website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+          </a>
+        </div>
+        <!-- Portfolio Item End -->
+
+        <!-- Portfolio Item Start -->
+        <div class="col-lg-4 col-md-6 d-flex">
+          <a href="https://sajidhaider.xyz/nipro/" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+            <span class="portfolio-card__tag">#Business</span>
+            <h3 class="portfolio-card__title font-heading">Nipro</h3>
+            <p class="portfolio-card__desc">A professional agency website built with Bootstrap for modern business presentation.</p>
+            <span class="portfolio-card__btn">View Website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+          </a>
+        </div>
+        <!-- Portfolio Item End -->
+
+        <!-- Portfolio Item Start -->
+        <div class="col-lg-4 col-md-6 d-flex">
+          <a href="https://sajidhaider.xyz/e-school/" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+            <span class="portfolio-card__tag">#Corporate</span>
+            <h3 class="portfolio-card__title font-heading">E-School</h3>
+            <p class="portfolio-card__desc">An education-focused website with organized content and a smooth user experience.</p>
+            <span class="portfolio-card__btn">View Website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+          </a>
+        </div>
+        <!-- Portfolio Item End -->
+
+        <!-- Portfolio Item Start -->
+        <div class="col-lg-4 col-md-6 d-flex">
+          <a href="https://sajidhaider.xyz/studyabroad/" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+            <span class="portfolio-card__tag">#Business</span>
+            <h3 class="portfolio-card__title font-heading">Study Abroad</h3>
+            <p class="portfolio-card__desc">A service website for student visa and admission support with clear call-to-actions.</p>
+            <span class="portfolio-card__btn">View Website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+          </a>
+        </div>
+        <!-- Portfolio Item End -->
+
+        <!-- Portfolio Item Start -->
+        <div class="col-lg-4 col-md-6 d-flex">
+          <a href="https://sajidhaider.xyz/bookstore/" class="portfolio-card" target="_blank" rel="noopener noreferrer">
+            <span class="portfolio-card__tag">#Ecommerce</span>
+            <h3 class="portfolio-card__title font-heading">Book Store</h3>
+            <p class="portfolio-card__desc">An e-learning and bookstore-style website with engaging product presentation.</p>
+            <span class="portfolio-card__btn">View Website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+          </a>
+        </div>
+        <!-- Portfolio Item End -->
+
+      </div>
+      <!-- Portfolio Grid End -->
+    </div>
+  </section>
+  <!-- Portfolio Section end -->
+
+  <!-- Review/Testimonials Section start -->
+  <section class="review section-spacing bg-section-a">
+    <div class="container">
+      <div class="service_title text-center mb-5" data-aos="fade-up">
+        <span class="section-label">09 — Reviews</span>
+        <h2 class="mb-3 cm_h2 font-heading">Testimonials</h2>
+        <p class="section-subtitle">What clients say about my work and efficiency</p>
+        <div class="divider mx-auto"></div>
+      </div>
+
+      <div class="testimonial-slider" data-aos="fade-up">
+        <!-- Slide 1 -->
+        <div class="testimonial-item">
+          <div class="r_box">
+            <div class="r_quote_icon"><i class="fa-solid fa-quote-right"></i></div>
+            <div class="r_img mx-auto">
+              <img src="img/c1.jpg" class="w-100" alt="Client Md.Shumon Portrait">
+            </div>
+            <h3>Md.Shumon</h3>
+            <div class="r_star text-center">
+              <ul class="mb-0 list-unstyled d-flex justify-content-center gap-1">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+            </div>
+            <p>
+              "Working with sajid was a pleasure. He developed a feature-rich e-learning platform for us with all the functionalities we needed. communication was very good. His expertise in WordPress and web development truly stands out!"
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="testimonial-item">
+          <div class="r_box">
+            <div class="r_quote_icon"><i class="fa-solid fa-quote-right"></i></div>
+            <div class="r_img mx-auto">
+              <img src="img/c1.jpg" class="w-100" alt="Client Md.Shumon Portrait">
+            </div>
+            <h3>Md.Shumon</h3>
+            <div class="r_star text-center">
+              <ul class="mb-0 list-unstyled d-flex justify-content-center gap-1">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+            </div>
+            <p>
+              "Working with sajid was a pleasure. He developed a feature-rich e-learning platform for us with all the functionalities we needed. communication was very good. His expertise in WordPress and web development truly stands out!"
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="testimonial-item">
+          <div class="r_box">
+            <div class="r_quote_icon"><i class="fa-solid fa-quote-right"></i></div>
+            <div class="r_img mx-auto">
+              <img src="img/c1.jpg" class="w-100" alt="Client Md.Shumon Portrait">
+            </div>
+            <h3>Md.Shumon</h3>
+            <div class="r_star text-center">
+              <ul class="mb-0 list-unstyled d-flex justify-content-center gap-1">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+            </div>
+            <p>
+              "Working with sajid was a pleasure. He developed a feature-rich e-learning platform for us with all the functionalities we needed. communication was very good. His expertise in WordPress and web development truly stands out!"
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="testimonial-item">
+          <div class="r_box">
+            <div class="r_quote_icon"><i class="fa-solid fa-quote-right"></i></div>
+            <div class="r_img mx-auto">
+              <img src="img/c1.jpg" class="w-100" alt="Client Md.Shumon Portrait">
+            </div>
+            <h3>Md.Shumon</h3>
+            <div class="r_star text-center">
+              <ul class="mb-0 list-unstyled d-flex justify-content-center gap-1">
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+                <li><i class="fa-solid fa-star"></i></li>
+              </ul>
+            </div>
+            <p>
+              "Working with sajid was a pleasure. He developed a feature-rich e-learning platform for us with all the functionalities we needed. communication was very good. His expertise in WordPress and web development truly stands out!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Review/Testimonials Section end -->
+
+  <!-- CTA Section start -->
+  <section class="cta-section section-spacing bg-section-b" aria-label="Call to action">
+    <div class="container">
+      <div class="cta-inner" data-aos="zoom-in">
+        <div class="cta-content">
+          <h2 class="cm_h2 font-heading mb-3">Ready to Build Your <span class="gradient-text">Next Project</span>?</h2>
+          <p class="section-subtitle mb-4">We provide only quality, work with 100% efficiency and reliability.</p>
+          <div class="d-flex justify-content-center">
+            <a href="#contact" class="btn btn-premium-solid">Start a Conversation <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CTA Section end -->
+
+  <!-- Contact Section start -->
+  <section class="contact section-spacing bg-section-c" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="row g-5">
+        <!-- Message Box Form -->
+        <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+          <div class="massage_box">
+            <h3 class="mb-4 font-heading">Send a Message</h3>
+            <form id="contact-form" data-whatsapp="8801998870515" novalidate>
+              <div class="row g-3 mb-3">
+                <div class="col-sm-6">
+                  <input type="text" id="contact-firstname" class="form-control" placeholder="First name" required>
+                </div>
+                <div class="col-sm-6">
+                  <input type="text" id="contact-lastname" class="form-control" placeholder="Last name" required>
+                </div>
+              </div>
+              <div class="mb-3">
+                <input type="email" id="contact-email" class="form-control" placeholder="Email address" required>
+              </div>
+              <div class="mb-4">
+                <textarea id="contact-message" class="form-control" rows="4" placeholder="How can I help you? Project details, timeline..." required></textarea>
+              </div>
+              <div class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></div>
+              <div class="c_btn_box">
+                <button type="submit" class="btn btn-premium-solid py-3">
+                  <span class="btn-text">Send via WhatsApp <i class="fa-brands fa-whatsapp ms-2"></i></span>
+                  <span class="btn-icon-arrow"><i class="fa-solid fa-arrow-right-long"></i></span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Text Info -->
+        <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
+          <div class="text_box ps-lg-4">
+            <div class="contact-header mb-4">
+              <span class="section-label">10 — Contact</span>
+              <h2 class="mb-3 cm_h2 contact_h2 font-heading" id="contact-heading">Contact <span class="gradient-text">Us</span></h2>
+              <div class="divider"></div>
+            </div>
+            
+            <!-- Contact Detail Cards -->
+            <div class="c_icon_box d-flex flex-column gap-3 mb-5">
+              <div class="contact-item-card">
+                <div class="item-icon"><i class="fa-brands fa-whatsapp text-accent"></i></div>
+                <div>
+                  <span class="label text-muted">WhatsApp Main</span>
+                  <span class="value"><a href="https://api.whatsapp.com/send/?phone=8801998870515&text&type=phone_number&app_absent=0" target="_blank">+880 1998-870515</a></span>
+                </div>
+              </div>
+              
+              <div class="contact-item-card">
+                <div class="item-icon"><i class="fa-brands fa-whatsapp text-accent"></i></div>
+                <div>
+                  <span class="label text-muted">WhatsApp Alternative</span>
+                  <span class="value"><a href="https://api.whatsapp.com/send/?phone=8801862258670&text&type=phone_number&app_absent=0" target="_blank">+880 1862-258670</a></span>
+                </div>
+              </div>
+              
+              <div class="contact-item-card">
+                <div class="item-icon"><i class="fa-solid fa-envelope-circle-check text-accent"></i></div>
+                <div>
+                  <span class="label text-muted">Email Address</span>
+                  <span class="value"><a href="mailto:sajidhaider100@gmail.com">sajidhaider100@gmail.com</a></span>
+                </div>
+              </div>
+              
+              <div class="contact-item-card d-none">
+                <div class="item-icon"><i class="fa-solid fa-globe text-accent"></i></div>
+                <div>
+                  <span class="label text-muted">Website</span>
+                  <span class="value"><a href="https://sajidhaider.xyz/" target="_blank">sajidhaider.xyz</a></span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Follow Us -->
+            <div class="follow_box border-top pt-4">
+              <h4 class="mb-3 Follow font-heading">Follow <span class="gradient-text">Us</span></h4>
+              <div class="b_icon c_social">
+                <ul class="list-unstyled d-flex gap-3 mb-0">
+                  <li><a href="https://www.facebook.com/sajidhaidersourav" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f face"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/sajidhaider/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin link"></i></a></li>
+                  <li><a href="https://github.com/sajid-haider" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github git"></i></a></li>
+                  <li><a href="https://www.youtube.com/@webnest.developer" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube you"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section end -->
+
+  <!-- Footer start -->
+  <footer class="site-footer bg-section-a">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <p class="footer-tagline mb-0">WordPress & Elementor Web Developer — Bangladesh</p>
+        </div>
+        <div class="footer-copyright">
+          <p class="mb-0">© 2025 <a href="https://www.facebook.com/sajidhaidersourav" class="gradient-text font-heading fw-bold">Sajid Haider</a>. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Scroll to top -->
+  <button type="button" class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Mobile Offcanvas Menu (placed at body level for proper Bootstrap behavior) -->
+  <div class="offcanvas offcanvas-start mobile_menu" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title m_menu_title" id="offcanvasExampleLabel">Menu</h5>
+      <button type="button" class="btn m_on_btn" data-bs-dismiss="offcanvas" aria-label="Close menu">
+        <i class="fa-solid fa-x"></i>
+      </button>
+    </div>
+    <div class="offcanvas-body">
+      <nav class="menu mobile-nav" aria-label="Mobile navigation">
+        <ul class="navbar-nav mb-4">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-premium mobile-contact-btn">Contact me <span><i class="fa-solid fa-arrow-right-long"></i></span></a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- WhatsApp Floating Widget start -->
+  <div class="ws_box">
+    <a href="https://api.whatsapp.com/send/?phone=8801998870515&text&type=phone_number&app_absent=0" target="_blank" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  </div>
+  <!-- WhatsApp Floating Widget end -->
+
+  <!-- JavaScript Libraries -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/typed.umd.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
